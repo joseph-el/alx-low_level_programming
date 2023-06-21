@@ -2,6 +2,6 @@
 
 int main( void )
 {
-    ft_putstr("_putchar");
+    _putchar('E');
     return (0);
 }
