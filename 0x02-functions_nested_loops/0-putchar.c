@@ -3,5 +3,5 @@
 int main( void )
 {
     _putchar();
-    return (EXIT_SUCCESS);
+    return (0);
 }
