@@ -1,7 +1,13 @@
 # include "main.h"
 
-void _putchar( void ) 
+static void _putchar(char c)
 {
-    write (1, "_putchar", 9);
-    write(1, "\n", 1);
+    write (STDOUT_FILENO, &c, 1);
+}
+
+void ft_putstr(char *the_string)
+{
+    while (*the_string)
+        _putchar(*the_string++);
+    _putchar(10);
 }

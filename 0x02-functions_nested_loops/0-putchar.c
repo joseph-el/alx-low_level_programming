@@ -2,6 +2,6 @@
 
 int main( void )
 {
-    _putchar();
+    ft_putstr("_putchar");
     return (0);
 }

@@ -2,4 +2,4 @@
 
 # include <unistd.h>
 
-void _putchar( void );
+void ft_putstr(char *);
